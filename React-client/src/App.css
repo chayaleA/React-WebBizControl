@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  /* background-image: url(https://img.lovepik.com/background/20211021/medium/lovepik-business-men-background-image_401706194.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  /* background-color: pink; */
+  
+}
+@media (max-width: 599px) {
+  .App {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+  .App {
+    flex-basis: 33.33333%;
+    max-width: 100%;   
+  }
+}
+
+@media (min-width: 960px) {
+  .App {
+    flex-basis: 58.33333%;
+    max-width: 100%;
+ 
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
